@@ -1,32 +1,150 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
 <head>
   <meta charset="UTF-8">
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1, minimum-scale=1">
-
   <title>AI Voice Assistant</title>
 
-  <!-- CSS links -->
+  <!-- Bootstrap CSS -->
   <link rel="stylesheet" href="assets/bootstrap/css/bootstrap.min.css">
   <link rel="stylesheet" href="assets/bootstrap/css/bootstrap-grid.min.css">
   <link rel="stylesheet" href="assets/bootstrap/css/bootstrap-reboot.min.css">
+
+  <!-- Additional CSS -->
   <link rel="stylesheet" href="assets/dropdown/css/style.css">
   <link rel="stylesheet" href="assets/animatecss/animate.css">
   <link rel="stylesheet" href="assets/theme/css/style.css">
+  <link rel="stylesheet" href="assets/echotra/css/additional.css">
+
+  <!-- Google Fonts -->
   <link rel="preload" href="https://fonts.googleapis.com/css2?family=Inter+Tight:wght@400;700&display=swap" as="style" onload="this.onload=null;this.rel='stylesheet'">
   <noscript><link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Inter+Tight:wght@400;700&display=swap"></noscript>
-  <link rel="preload" as="style" href="assets/echotra/css/additional.css">
-  <link rel="stylesheet" href="assets/echotra/css/additional.css" type="text/css">
+
+  <style>
+    :root {
+      --background: #dcb3f5; --dominant-color: #7209B7; --primary-color: #4361EE; 
+      --secondary-color: #4CC9F0; --success-color: #28D685; --danger-color: #D82637; 
+      --warning-color: #FEBF00; --info-color: #0DCBF1; --background-text: #000000; 
+      --dominant-text: #FFFFFF; --primary-text: #FFFFFF; --secondary-text: #000000; 
+      --success-text: #000000; --danger-text: #FFFFFF; --warning-text: #000000; 
+      --info-text: #000000;
+    }
+    #hero_img {
+      height: 300px;
+      width: auto;
+      margin: 20px;
+    }
+  </style>
 </head>
 <body>
-  <section class="header18" id="hero">
-    <div class="container-fluid">
-      <div class="row">
-        <img src="assets/images/doraai.png" id="hero_img">
-        <div class="content-wrap col-12 col-md-10">
-          <h1><strong>Dora AI</strong></h1>
-          <p>Unleash the Power of Voice with Our AI Assistant</p>
-          <div class="mbr-section-btn">
-            <!-- Fixed link -->
-            <a class="btn btn-white-outline" href="Dora%20ChatBox/
+
+<!-- Hero Section -->
+<section class="header18 cid-u2Fu3IwjmA mbr-fullscreen" style="background: linear-gradient(109.6deg, rgb(193, 98, 253) 11.2%, rgb(0, 49, 165) 91.1%);">
+  <div class="mbr-overlay" style="opacity: 0.3; background-color: #000;"></div>
+  <div class="container-fluid">
+    <div class="row">
+      <img src="assets/images/doraai.png" id="hero_img" alt="Dora AI Logo">
+      <div class="content-wrap col-12 col-md-10 text-center">
+        <h1 style="font-size: 100px; color: #000;">Dora AI</h1>
+        <p>Unleash the Power of Voice with Our AI Assistant</p>
+        <a class="btn btn-white-outline" href="Dora%20ChatBox/doraAI.html">Try Now</a>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- About Section -->
+<section class="article07 cid-u2Fu3Iwzzf">
+  <div class="container">
+    <div class="row justify-content-center">
+      <div class="card col-md-12 col-lg-10">
+        <div class="card-wrapper p-4">
+          <h3 class="card-title display-2 text-center mb-4"><strong>About Dora AI</strong></h3>
+          <p>Welcome to the future of voice technology, where your every command is our delight. At Dora AI, we've harnessed the power of AI to bring you a voice assistant that's smarter, faster, and more intuitive than ever before.</p>
+          <p>Our AI assistant is designed to understand your needs, anticipate your desires, and execute your commands with lightning speed. Say goodbye to mundane tasks and hello to a world of seamless voice interaction.</p>
+          <p>Join the revolution and experience the magic of Dora AI. It's time to speak and watch things happen!</p>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- Call to Action -->
+<section class="header19 cid-u2Fu3IwvgQ text-center py-5" style="background-color: #7209B7;">
+  <div class="container">
+    <h1 class="display-1 text-black mb-4"><strong>Ready to Get Started?</strong></h1>
+    <p class="mb-4 text-black">Take the first step towards a voice-powered future. Try Dora AI today!</p>
+    <a class="btn btn-primary mb-2" href="#">Get Started</a>
+    <a class="btn btn-secondary mb-2" href="#">Learn More</a>
+  </div>
+</section>
+
+<!-- Key Features -->
+<section class="features18 cid-u2Fu3IwlXs py-5">
+  <div class="container">
+    <h3 class="display-2 text-center mb-3"><strong>Key Features</strong></h3>
+    <p class="text-center mb-5">Discover the incredible features that make Dora AI the ultimate voice assistant for all your needs.</p>
+    <div class="row">
+      <div class="col-md-4 mb-4 text-center">
+        <h5><strong>Smart</strong></h5>
+        <p>Intelligent and intuitive, Dora AI understands and adapts to your commands.</p>
+      </div>
+      <div class="col-md-4 mb-4 text-center">
+        <h5><strong>Fast</strong></h5>
+        <p>Lightning-fast execution of tasks, making voice interaction seamless and efficient.</p>
+      </div>
+      <div class="col-md-4 mb-4 text-center">
+        <h5><strong>Adaptive</strong></h5>
+        <p>Adapts to your preferences and learns from your usage to provide a personalized experience.</p>
+      </div>
+      <div class="col-md-4 mb-4 text-center">
+        <h5><strong>Versatile</strong></h5>
+        <p>Handles a wide range of tasks and commands, from simple to complex.</p>
+      </div>
+      <div class="col-md-4 mb-4 text-center">
+        <h5><strong>Secure</strong></h5>
+        <p>Robust security measures protect your voice data and ensure privacy.</p>
+      </div>
+      <div class="col-md-4 mb-4 text-center">
+        <h5><strong>Interactive</strong></h5>
+        <p>Engage in natural, interactive conversations for a more human-like experience.</p>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- Image Section -->
+<section class="article01 cid-u2Fu3IxCoi py-5">
+  <div class="container">
+    <div class="row">
+      <div class="col-sm-6 mb-3">
+        <img src="assets/images/photo-1573496130103-a442a3754d0e.jpg" class="img-fluid" alt="Feature Image 1">
+      </div>
+      <div class="col-sm-6 mb-3">
+        <img src="assets/images/photo-1487611459768-bd414656ea10.jpg" class="img-fluid" alt="Feature Image 2">
+      </div>
+    </div>
+    <div class="text-center mt-4">
+      <h4><strong>Unleash the Power of Voice</strong></h4>
+      <p>Dora AI is not just an assistant, it’s a revolution. Experience hands-free interaction and command tasks with your voice.</p>
+      <p>Join the Dora AI community and embrace the convenience, efficiency, and magic of voice technology.</p>
+    </div>
+  </div>
+</section>
+
+<!-- Footer -->
+<footer class="footer4 bg-black py-3 text-center text-white">
+  <p>© 2024 Dora AI. All rights reserved.</p>
+</footer>
+
+<!-- Scripts -->
+<script src="assets/bootstrap/js/bootstrap.bundle.min.js"></script>
+<script src="assets/dropdown/js/navbar-dropdown.js"></script>
+<script src="assets/smoothscroll/smooth-scroll.js"></script>
+<script src="assets/ytplayer/index.js"></script>
+<script src="assets/theme/js/script.js"></script>
+<script src="assets/formoid/formoid.min.js"></script>
+
+</body>
+</html>
